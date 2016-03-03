@@ -206,12 +206,12 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   vertical-align: baseline;
+  background-color: #B9FFDC;
 }
 
 body {
   font: 13px/21px "Open Sans", Arial, sans-serif;
   color: #838383;
-  background-color: #B9FFDC;
 }
 
 a {

@@ -40,11 +40,6 @@
     });
 
     $('.main-menu').singlePageNav();
-	
-	var dt = window.atob('fCBEZXNpZ246IDxhIHJlbD0ibm9mb2xsb3ciIGhyZWY9Imh0dHA6Ly93d3cudGVtcGxhdGVtby5jb20vdG0tNDAxLXNwcmludCIgdGFyZ2V0PSJfcGFyZW50Ij5TcHJpbnQ8L2E+'); // decode the string
-	var div = document.getElementById('copyright');
-
-	div.innerHTML += dt;
 
 
 })(window, jQuery);
@@ -54,7 +49,7 @@ var map = '';
 function initialize() {
     var mapOptions = {
       zoom: 14,
-      center: new google.maps.LatLng(37.769725, -122.462154)
+      center: new google.maps.LatLng(49.832114, 23.998656)
     };
     map = new google.maps.Map(document.getElementById('map'),  mapOptions);
 }

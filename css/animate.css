@@ -2862,18 +2862,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 
-span .fa-hand-o-up {
-    color: green;
-    margin: 0 3px;
-    font-size: 20px;
-    animation: pound 0.35s infinite alternate;
-}
-
-.pulse {
-    -webkit-animation-name: pulse;
-    animation-name: pulse;
-}
-
-.fa-3x {
-    font-size: 3em;
-}
